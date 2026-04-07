@@ -364,28 +364,28 @@ body.video cite { color: #fff; }
 
 /* Vertically center the text logo */
 #masthead-no-image-header #logo .logo-text-container {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 #logo .logo-text-container {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 @media #{$small-only} {
     #logo .logo-text-container {
-        margin-top: 40px;
+        margin-top: 70px;
     }
 }
 @media #{$medium-only} {
     #logo .logo-text-container {
-        margin-top: 60px;
+        margin-top: 90px;
     }
 }
 @media #{$large-only} {
     #logo .logo-text-container {
-        margin-top: 80px;
+        margin-top: 120px;
     }
 }
 @media #{$xlarge-up} {
     #logo .logo-text-container {
-        margin-top: 110px;
+        margin-top: 160px;
     }
 }
