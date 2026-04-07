@@ -7,8 +7,10 @@
 				{% if site.logo != null and site.logo != "" %}
 				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
 				{% else %}
-				<h1 style="color: #fff; font-size: 2rem; margin-bottom: 0; line-height: 1.2;">{{ site.title }}</h1>
-				<h2 style="color: rgba(255,255,255,0.8); font-size: 1.15rem; font-weight: normal; margin-top: 0;">{{ site.slogan }}</h2>
+				<div class="logo-text-container">
+					<h1 style="color: #fff; font-size: 2rem; margin-bottom: 0; line-height: 1.2;">{{ site.title }}</h1>
+					<h2 style="color: rgba(255,255,255,0.8); font-size: 1.15rem; font-weight: normal; margin-top: 0;">{{ site.slogan }}</h2>
+				</div>
 				{% endif %}
 			</a>
 		</div><!-- /.small-12.columns -->
@@ -60,8 +62,10 @@
 				{% if site.logo != null and site.logo != "" %}
 				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
 				{% else %}
-				<h1 style="color: #fff; font-size: 2rem; margin-bottom: 0; line-height: 1.2;">{{ site.title }}</h1>
-				<h2 style="color: rgba(255,255,255,0.8); font-size: 1.15rem; font-weight: normal; margin-top: 0;">{{ site.slogan }}</h2>
+				<div class="logo-text-container">
+					<h1 style="color: #fff; font-size: 2rem; margin-bottom: 0; line-height: 1.2;">{{ site.title }}</h1>
+					<h2 style="color: rgba(255,255,255,0.8); font-size: 1.15rem; font-weight: normal; margin-top: 0;">{{ site.slogan }}</h2>
+				</div>
 				{% endif %}
 			</a>
 		</div><!-- /.small-12.columns -->
