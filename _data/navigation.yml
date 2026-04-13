@@ -6,6 +6,10 @@
   url: "/about/"
   side: left
 
+- title: Portfolio
+  url: "/portfolio/"
+  side: left
+
 - title: Contact
   url: "/contact/"
   side: right
