@@ -30,7 +30,7 @@ Welcome to my portfolio! Here you will find a selection of my coursework and com
 
 ## Video Analysis
 
-A crucial aspect of sports science is understanding human movement through detailed motion analysis. The following images are excerpts from my video analysis projects tracking specific movement patterns:
+A crucial aspect of sports science is understanding human movement through detailed motion analysis. The following images are excerpts from my video analysis projects tracking specific movement patterns in cross country skiers :
 
 ![Video Analysis Frame 1](/images/portfolio/videoanalysis1.png)
 
