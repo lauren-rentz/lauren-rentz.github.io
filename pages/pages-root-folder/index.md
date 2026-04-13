@@ -14,7 +14,7 @@ widget2:
 widget3:
   title: "Find Me Online"
   url: 'https://github.com/lauren-rentz'
-  image: widget-github-303x182.jpg
+  image: githubpic.svg
   text: 'Check out my <a href="https://github.com/lauren-rentz">GitHub</a> for projects and coursework, or follow me on <a href="https://instagram.com/_laurenrentz">Instagram</a> to see what I am up to.'
 permalink: /index.html
 homepage: true
