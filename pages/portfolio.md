@@ -7,6 +7,13 @@ header: no
 
 Welcome to my portfolio! Here you will find a selection of my coursework and computational projects, demonstrating my ability to apply kinesiology and biomechanical concepts to real-world data and technology.
 
+### Table of Contents
+- [Research Papers and Reviews](#research-papers-and-reviews)
+- [Data Analysis & Modeling](#data-analysis--modeling)
+- [Video Analysis](#video-analysis)
+
+---
+
 ## Research Papers and Reviews
 
 - **[TrainingPeaks App Review](/assets/documents/App_Review_TrainingPeaks.pdf)**
