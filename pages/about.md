@@ -13,6 +13,12 @@ Even before my post-secondary studies, I always had an interest in how the human
 
 After facing sport-related injuries early in my undergraduate degree, I met with numerous physiotherapists, specialists, and orthotists. Even though those injuries set me back in my athletic training, I found a silver lining: I was able to learn from these professionals about my own body and see firsthand how they help others through their integrative work. This experience has inspired me to pursue a similar path through research and practical occupational applications.
 
+<div style="text-align: center; margin-top: 25px; margin-bottom: 25px;">
+  <a href="/portfolio/" style="display: inline-block; padding: 12px 24px; background-color: #2980b9; color: white; font-weight: bold; text-decoration: none; border-radius: 6px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: background-color 0.3s;">
+    View My Portfolio
+  </a>
+</div>
+
 ---
 
 Outside of school, I love trying new sports, especially outdoors. For most of my life, I have paddled on the Glenmore Reservoir here in my home city of Calgary with the Calgary Canoe Club. Sprint paddling and racing have proven to be challenging, but also very rewarding. Because it is a highly technical sport, refining how I move within the boat to maximize efficiency is crucial. This has allowed me to think about biomechanics outside the classroom in an applied, real-world context.
