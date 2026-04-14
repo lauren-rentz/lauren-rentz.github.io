@@ -13,7 +13,7 @@ widget2:
   url: '/contact/'
   image: lauren_cycling.jpg
   image_style: 'height: 182px; width: 100%; object-fit: cover; object-position: center 27%;'
-  text: 'Have a question or just want to connect? Feel free to reach out — I would love to hear from you!<br/><br/>📧 <a href="mailto:lauren.rentz@ucalgary.ca">lauren.rentz@ucalgary.ca</a>'
+  text: 'Feel free to reach out - I would love to hear from you!<br/><br/>📧 <a href="mailto:lauren.rentz@ucalgary.ca">lauren.rentz@ucalgary.ca</a>'
 widget3:
   title: "Find Me Online"
   url: 'https://github.com/lauren-rentz'
