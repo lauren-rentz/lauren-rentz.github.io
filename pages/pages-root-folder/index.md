@@ -11,7 +11,8 @@ widget1:
 widget2:
   title: "Get in Touch"
   url: '/contact/'
-  image: spacer.svg
+  image: lauren_running.jpg
+  image_style: 'height: 182px; width: 100%; object-fit: cover; object-position: center 25%;'
   text: 'Have a question or just want to connect? Feel free to reach out — I would love to hear from you!<br/><br/>📧 <a href="mailto:lauren.rentz@ucalgary.ca">lauren.rentz@ucalgary.ca</a>'
 widget3:
   title: "Find Me Online"
