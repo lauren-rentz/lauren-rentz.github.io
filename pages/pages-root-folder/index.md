@@ -5,14 +5,14 @@ header:
 widget1:
   title: "About Me"
   url: '/about/'
-  image: lauren_cycling.jpg
-  image_style: 'height: 182px; width: 100%; object-fit: cover; object-position: center 27%;'
+  image: lauren_running.jpg
+  image_style: 'height: 182px; width: 100%; object-fit: cover; object-position: center 25%;'
   text: 'I am an undergraduate Kinesiology student at the University of Calgary, passionate about human movement, biomechanics, and my own athletic pursuits. Learn more about my background and interests.'
 widget2:
   title: "Get in Touch"
   url: '/contact/'
-  image: lauren_running.jpg
-  image_style: 'height: 182px; width: 100%; object-fit: cover; object-position: center 25%;'
+  image: lauren_cycling.jpg
+  image_style: 'height: 182px; width: 100%; object-fit: cover; object-position: center 27%;'
   text: 'Have a question or just want to connect? Feel free to reach out — I would love to hear from you!<br/><br/>📧 <a href="mailto:lauren.rentz@ucalgary.ca">lauren.rentz@ucalgary.ca</a>'
 widget3:
   title: "Find Me Online"
