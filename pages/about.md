@@ -15,9 +15,9 @@ After facing sport-related injuries early in my undergraduate degree, I met with
 
 ---
 
-Outside of school, I love trying any new sport, especially outside. For most of my life, I have paddled on the Glenmore Reservoir here in my home city of Calgary with the Calgary Canoe Club. Sprint paddling and racing has proven itself to be challenging, but also very rewarding. As it is a very technical sport, refining how I move within any boat in order to be more efficient is crucial. This has helped allow me to think of biomechanics outside of the classroom in an applied context.
+Outside of school, I love trying new sports, especially outdoors. For most of my life, I have paddled on the Glenmore Reservoir here in my home city of Calgary with the Calgary Canoe Club. Sprint paddling and racing have proven to be challenging, but also very rewarding. Because it is a highly technical sport, refining how I move within the boat to maximize efficiency is crucial. This has allowed me to think about biomechanics outside the classroom in an applied, real-world context.
 
-Aside from paddling, I also frequently trail run and ski (both downhill and cross-country!). Even though some of these sports have been what has caused injuries and setbacks for both myself and many others, the benefits of exercise as well as the insights into the human body that it provides is what inspires me to keep studying within the field on kinesiology and pushing my own body. 
+Aside from paddling, I also frequently trail run and ski (both downhill and cross-country!). Even though some of these sports have caused injuries and setbacks for me and many others, the benefits of exercise—along with the insights into the human body it provides—are what inspire me to keep pushing my own body and studying the field of Kinesiology.
 
 <!-- Add more about yourself here when you're ready! For example: your interests, research, courses, career goals, etc. -->
 
