@@ -26,7 +26,7 @@ Welcome to my portfolio! Here you will find a selection of my coursework and com
 - **[Realistic Athlete Performance Data](/assets/documents/realistic_athlete_performance_revised.xlsx)**
   An Excel spreadsheet used to model and graph athlete performance metrics.
 - **[Computational Analysis Notebook](/assets/documents/my-demo2-notebook.html)**
-  A Jupyter Notebook demonstrating data analysis capabilities in Python.
+  A snippet from one of my Jupyter notebooks demonstrating my data analysis capabilities using Python. This page has been converted to html for better webpage readability.
 
 ## Video Analysis
 
