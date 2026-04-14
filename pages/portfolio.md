@@ -96,7 +96,7 @@ Here are some of my recent long-distance races mapped out natively on the site, 
 </script>
 
 <h3 style="margin-top: 40px;">Race Metrics</h3>
-<p>Select a race from the map to view the physiological metrics recorded sequentially over the course of the run, mapping how changes in elevation interact with heart rate.</p>
+<p>Select a race from the map to view the physiological metrics recorded sequentially over the course of the run, mapping relationships such as how pace influences heart rate. This is especially useful for longer races. I am running a 30 mile ultra trail run this summer, and reviewing my metrics in a format like this is a great way to condense lots of data into something digestible once I am done racing.</p>
 
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="loadChart('/assets/data/Servus_Credit_Union_Marathon_metrics.json', 'Marathon')" style="padding: 8px 16px; cursor: pointer; border: 0px solid #ccc; border-radius: 4px; background: #e74c3c; color: white; font-weight: bold; flex: 1;">Marathon</button>
