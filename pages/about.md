@@ -1,6 +1,6 @@
 ---
 layout              : page
-title               : "About"
+title               : "About Me"
 meta_title          : "About Lauren Rentz"
 subheadline         : "Hi, I'm Lauren!"
 teaser              : "Undergraduate Kinesiology student at the University of Calgary."
