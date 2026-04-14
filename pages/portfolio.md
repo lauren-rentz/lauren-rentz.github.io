@@ -10,6 +10,7 @@ Welcome to my portfolio! Here you will find a selection of my coursework and com
 ### Table of Contents
 - [Research Papers and Reviews](#research-papers-and-reviews)
 - [Data Analysis & Modeling](#data-analysis--modeling)
+- [Data Organization and Visualization](#data-organization-and-visualization)
 - [Video Analysis](#video-analysis)
 
 ---
@@ -41,3 +42,48 @@ A crucial aspect of sports science is understanding human movement through detai
 ![Video Analysis Frame 4](/images/portfolio/videoanalysis4.png)
 
 ![Video Analysis Frame 5](/images/portfolio/videoanalysis5.png)
+
+## Data Organization and Visualization
+
+Here are some of my recent long-distance races mapped out natively on the site. I extracted the coordinates from the original Garmin `.fit` files spanning half-marathons to 5k races, and rendered them interactively using GPS data processing and Leaflet.js mapping!
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<div id="stravaMap" style="height: 480px; width: 100%; border-radius: 8px; margin-top: 20px; z-index: 1;"></div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var map = L.map('stravaMap').setView([51.0447, -114.0719], 10);
+    
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+    }).addTo(map);
+
+    var files = [
+      { url: '/assets/data/Servus_Credit_Union_Marathon.geojson', color: '#e74c3c' },
+      { url: '/assets/data/Dino_Dash_5k_.geojson', color: '#2980b9' },
+      { url: '/assets/data/Last_Chance_Half_Marathon.geojson', color: '#27ae60' }
+    ];
+
+    var bounds = L.latLngBounds();
+    var loaded = 0;
+
+    files.forEach(function(file) {
+      fetch(file.url)
+        .then(res => res.json())
+        .then(data => {
+            var layer = L.geoJSON(data, {
+                style: { color: file.color, weight: 4, opacity: 0.8 }
+            }).addTo(map);
+            bounds.extend(layer.getBounds());
+            loaded++;
+            if (loaded === files.length) {
+                map.fitBounds(bounds, { padding: [20, 20] });
+            }
+        })
+        .catch(err => console.error("Could not load " + file.url, err));
+    });
+  });
+</script>
