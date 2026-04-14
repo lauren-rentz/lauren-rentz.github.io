@@ -19,7 +19,7 @@ Welcome to my portfolio! Here you will find a selection of my coursework and com
 - **[TrainingPeaks App Review](/assets/documents/App_Review_TrainingPeaks.pdf)**
   A comprehensive review of the TrainingPeaks application from a kinesiology and sports science perspective.
 - **[KNES 381 Final Paper](/assets/documents/KNES381FinalPaper_LaurenRentz.docx)**
-  My final capstone paper for KNES 381.
+  My final review and analysis paper for KNES 381, highlighting the current use of AI in the rehabilitation of knee injuries.
 
 ## Data Analysis & Modeling
 
