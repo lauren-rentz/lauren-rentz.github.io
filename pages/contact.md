@@ -3,7 +3,7 @@ layout              : page
 title               : "Contact"
 meta_title          : "Contact Lauren Rentz"
 subheadline         : "Get In Touch"
-teaser              : "Feel free to reach out — I would love to connect!"
+teaser              : "I am constantly seeking to expand my research, volunteer, and practical experience. If you are interested in my profile and portfolio and are seeking individuals to join in on your work, feel free to reach out!"
 permalink           : "/contact/"
 ---
 
