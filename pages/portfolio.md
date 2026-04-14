@@ -37,15 +37,15 @@ A crucial aspect of sports science is understanding human movement through detai
   <summary style="cursor: pointer; padding: 12px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 5px; font-weight: bold; user-select: none;">Click to View Video Analysis Frames</summary>
   <div style="padding: 15px 0;">
 
-![Video Analysis Frame 1](/images/portfolio/videoanalysis1.png)
+<img src="/images/portfolio/videoanalysis1.png" alt="Video Analysis Frame 1" style="width: 100%; margin-bottom: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-![Video Analysis Frame 2](/images/portfolio/videoanalysis2.png)
+<img src="/images/portfolio/videoanalysis2.png" alt="Video Analysis Frame 2" style="width: 100%; margin-bottom: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-![Video Analysis Frame 3](/images/portfolio/videoanalysis3.png)
+<img src="/images/portfolio/videoanalysis3.png" alt="Video Analysis Frame 3" style="width: 100%; margin-bottom: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-![Video Analysis Frame 4](/images/portfolio/videoanalysis4.png)
+<img src="/images/portfolio/videoanalysis4.png" alt="Video Analysis Frame 4" style="width: 100%; margin-bottom: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-![Video Analysis Frame 5](/images/portfolio/videoanalysis5.png)
+<img src="/images/portfolio/videoanalysis5.png" alt="Video Analysis Frame 5" style="width: 100%; margin-bottom: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
   </div>
 </details>
