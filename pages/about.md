@@ -25,6 +25,10 @@ Aside from paddling, I also frequently trail run and ski (both downhill and cros
   <div style="flex: 1;"><img src="/images/about_img_3.jpg" alt="Group posing on a track" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 6px;"></div>
 </div>
 
+---
+
+Check out some of my longer-distance races! While they do have their drawbacks, I enjoy utilizing apps such as TrainingPeaks and Strava to view my training and gain information on certain physiological metrics.
+
 <!-- Add more about yourself here when you're ready! For example: your interests, research, courses, career goals, etc. -->
 
 ## Connect With Me
