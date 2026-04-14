@@ -137,6 +137,18 @@ Here are some of my recent long-distance races mapped out natively on the site, 
                       tension: 0.4,
                       pointRadius: 0,
                       borderWidth: 2
+                  },
+                  {
+                      label: 'Pace (min/km)',
+                      data: data.pace,
+                      borderColor: 'rgba(155, 89, 182, 1)',
+                      backgroundColor: 'rgba(155, 89, 182, 0.1)',
+                      yAxisID: 'y2',
+                      fill: false,
+                      tension: 0.4,
+                      pointRadius: 0,
+                      borderWidth: 2,
+                      borderDash: [5, 5]
                   }
               ]
           },
@@ -168,6 +180,14 @@ Here are some of my recent long-distance races mapped out natively on the site, 
                       position: 'right',
                       title: { display: true, text: 'Elevation (m)' },
                       grid: { drawOnChartArea: false }
+                  },
+                  y2: {
+                      type: 'linear',
+                      display: true,
+                      position: 'right',
+                      title: { display: true, text: 'Pace (min/km)' },
+                      grid: { drawOnChartArea: false },
+                      reverse: true
                   }
               }
           }
