@@ -41,4 +41,5 @@ Check out some of my longer-distance races! While they do have their drawbacks, 
 
 - 📧 Email: [lauren.rentz@ucalgary.ca](mailto:lauren.rentz@ucalgary.ca)
 - 💻 GitHub: [github.com/lauren-rentz](https://github.com/lauren-rentz)
+- 💼 LinkedIn: [Lauren Rentz](https://www.linkedin.com/in/lauren-rentz-a898a6217/)
 - 📸 Instagram: [@_laurenrentz](https://instagram.com/_laurenrentz)

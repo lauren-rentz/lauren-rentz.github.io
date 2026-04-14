@@ -14,4 +14,5 @@ The best way to reach me is by email:
 You can also find me on:
 
 - **GitHub:** [github.com/lauren-rentz](https://github.com/lauren-rentz)
+- **LinkedIn:** [Lauren Rentz](https://www.linkedin.com/in/lauren-rentz-a898a6217/)
 - **Instagram:** [@_laurenrentz](https://instagram.com/_laurenrentz)
