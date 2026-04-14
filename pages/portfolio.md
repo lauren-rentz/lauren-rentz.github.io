@@ -87,3 +87,96 @@ Here are some of my recent long-distance races mapped out natively on the site, 
     });
   });
 </script>
+
+<h3 style="margin-top: 40px;">Race Metrics</h3>
+<p>Select a race from the map to view the physiological metrics recorded sequentially over the course of the run, mapping how changes in elevation interact with heart rate.</p>
+
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button onclick="loadChart('/assets/data/Servus_Credit_Union_Marathon_metrics.json', 'Marathon')" style="padding: 8px 16px; cursor: pointer; border: 0px solid #ccc; border-radius: 4px; background: #e74c3c; color: white; font-weight: bold; flex: 1;">Marathon</button>
+  <button onclick="loadChart('/assets/data/Last_Chance_Half_Marathon_metrics.json', 'Half-Marathon')" style="padding: 8px 16px; cursor: pointer; border: 0px solid #ccc; border-radius: 4px; background: #27ae60; color: white; font-weight: bold; flex: 1;">Half-Marathon</button>
+  <button onclick="loadChart('/assets/data/Dino_Dash_5k__metrics.json', '5K')" style="padding: 8px 16px; cursor: pointer; border: 0px solid #ccc; border-radius: 4px; background: #2980b9; color: white; font-weight: bold; flex: 1;">5K</button>
+</div>
+
+<div style="width: 100%; border: 1px solid #ddd; padding: 15px; border-radius: 8px; box-sizing: border-box;"><canvas id="raceChart" height="120"></canvas></div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  let raceChart;
+
+  function loadChart(url, title) {
+    fetch(url).then(res => res.json()).then(data => {
+      const ctx = document.getElementById('raceChart').getContext('2d');
+      
+      if (raceChart) {
+          raceChart.destroy();
+      }
+      
+      raceChart = new Chart(ctx, {
+          type: 'line',
+          data: {
+              labels: data.distance,
+              datasets: [
+                  {
+                      label: 'Heart Rate (bpm)',
+                      data: data.heart_rate,
+                      borderColor: 'rgba(231, 76, 60, 1)',
+                      backgroundColor: 'rgba(231, 76, 60, 0.1)',
+                      yAxisID: 'y',
+                      fill: true,
+                      tension: 0.4,
+                      pointRadius: 0,
+                      borderWidth: 2
+                  },
+                  {
+                      label: 'Elevation (m)',
+                      data: data.altitude,
+                      borderColor: 'rgba(41, 128, 185, 1)',
+                      backgroundColor: 'rgba(52, 152, 219, 0.1)',
+                      yAxisID: 'y1',
+                      fill: true,
+                      tension: 0.4,
+                      pointRadius: 0,
+                      borderWidth: 2
+                  }
+              ]
+          },
+          options: {
+              responsive: true,
+              interaction: {
+                  mode: 'index',
+                  intersect: false,
+              },
+              plugins: {
+                  title: {
+                      display: true,
+                      text: title + ' Physiological Metrics'
+                  }
+              },
+              scales: {
+                  x: {
+                      title: { display: true, text: 'Distance (km)' }
+                  },
+                  y: {
+                      type: 'linear',
+                      display: true,
+                      position: 'left',
+                      title: { display: true, text: 'Heart Rate (bpm)' }
+                  },
+                  y1: {
+                      type: 'linear',
+                      display: true,
+                      position: 'right',
+                      title: { display: true, text: 'Elevation (m)' },
+                      grid: { drawOnChartArea: false }
+                  }
+              }
+          }
+      });
+    }).catch(err => console.error("Error loading chart data: ", err));
+  }
+
+  // Load Marathon by default
+  document.addEventListener("DOMContentLoaded", function() {
+      loadChart('/assets/data/Servus_Credit_Union_Marathon_metrics.json', 'Marathon');
+  });
+</script>
