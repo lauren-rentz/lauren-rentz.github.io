@@ -45,7 +45,7 @@ A crucial aspect of sports science is understanding human movement through detai
 
 ## Data Organization and Visualization
 
-Here are some of my recent long-distance races mapped out natively on the site. I extracted the coordinates from the original Garmin `.fit` files spanning half-marathons to 5k races, and rendered them interactively using GPS data processing and Leaflet.js mapping!
+Here are some of my recent long-distance races mapped out natively on the site, compiled onto one map for easy viewing. I extracted the coordinates from the original Garmin `.fit` files spanning half-marathons to 5k races, and rendered them interactively using GPS data processing and Leaflet.js mapping!
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
