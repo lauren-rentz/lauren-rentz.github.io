@@ -19,6 +19,12 @@ Outside of school, I love trying new sports, especially outdoors. For most of my
 
 Aside from paddling, I also frequently trail run and ski (both downhill and cross-country!). Even though some of these sports have caused injuries and setbacks for me and many others, the benefits of exercise—along with the insights into the human body it provides—are what inspire me to keep pushing my own body and studying the field of Kinesiology.
 
+<div style="display: flex; flex-direction: column; gap: 20px; align-items: center; margin-top: 30px; margin-bottom: 30px;">
+  <img src="/images/about_img_1.jpg" alt="Paddling team on the water" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/about_img_2.jpg" alt="Paddling close up" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/about_img_3.jpg" alt="Group posing on a track" style="max-width: 100%; height: auto; border-radius: 6px;">
+</div>
+
 <!-- Add more about yourself here when you're ready! For example: your interests, research, courses, career goals, etc. -->
 
 ## Connect With Me
