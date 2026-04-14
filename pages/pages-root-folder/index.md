@@ -7,7 +7,7 @@ widget1:
   url: '/about/'
   image: lauren_cycling.jpg
   image_style: 'height: 182px; width: 100%; object-fit: cover; object-position: center 27%;'
-  text: 'I am an undergraduate Kinesiology student at the University of Calgary, passionate about human movement, sport science, and health. Learn more about my background and interests.'
+  text: 'I am an undergraduate Kinesiology student at the University of Calgary, passionate about human movement, biomechanics, and my own athletic pursuits. Learn more about my background and interests.'
 widget2:
   title: "Get in Touch"
   url: '/contact/'
