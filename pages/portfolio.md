@@ -25,7 +25,7 @@ Welcome to my portfolio! Here you will find a selection of my coursework and com
 ## Data Analysis & Modeling
 
 - **<a href="https://view.officeapps.live.com/op/view.aspx?src=https://lauren-rentz.github.io/assets/documents/realistic_athlete_performance_revised.xlsx" target="_blank" rel="noopener noreferrer">Realistic Athlete Performance Data</a>**
-  An interactive Excel spreadsheet used to model and graph athlete performance metrics.
+  An interactive Excel spreadsheet used to model and graph athlete performance metrics. By utilizing slicers and pivot tables, large datasets can be filtered and analyzed to extract meaningful information without any intensive coding.
 - **[Computational Analysis Notebook](/assets/documents/my-demo2-notebook.html)**
   A snippet from one of my Jupyter notebooks demonstrating my data analysis capabilities using Python. This page has been converted to html for better webpage readability.
 
