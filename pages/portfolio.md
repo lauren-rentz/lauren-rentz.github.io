@@ -33,6 +33,10 @@ Welcome to my portfolio! Here you will find a selection of my coursework and com
 
 A crucial aspect of sports science is understanding human movement through detailed motion analysis. The following images are excerpts from my video analysis projects tracking specific movement patterns in cross country skiers :
 
+<details style="margin-bottom: 20px;">
+  <summary style="cursor: pointer; padding: 12px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 5px; font-weight: bold; user-select: none;">Click to View Video Analysis Frames</summary>
+  <div style="padding: 15px 0;">
+
 ![Video Analysis Frame 1](/images/portfolio/videoanalysis1.png)
 
 ![Video Analysis Frame 2](/images/portfolio/videoanalysis2.png)
@@ -42,6 +46,9 @@ A crucial aspect of sports science is understanding human movement through detai
 ![Video Analysis Frame 4](/images/portfolio/videoanalysis4.png)
 
 ![Video Analysis Frame 5](/images/portfolio/videoanalysis5.png)
+
+  </div>
+</details>
 
 ## Data Organization and Visualization
 
