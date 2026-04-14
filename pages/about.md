@@ -20,9 +20,9 @@ Outside of school, I love trying new sports, especially outdoors. For most of my
 Aside from paddling, I also frequently trail run and ski (both downhill and cross-country!). Even though some of these sports have caused injuries and setbacks for me and many others, the benefits of exercise—along with the insights into the human body it provides—are what inspire me to keep pushing my own body and studying the field of Kinesiology.
 
 <div style="display: flex; flex-direction: row; gap: 15px; margin-top: 30px; margin-bottom: 30px;">
-  <div style="flex: 1;"><img src="/images/about_img_1.jpg" alt="Paddling team on the water" style="width: 100%; height: auto; border-radius: 6px;"></div>
-  <div style="flex: 1;"><img src="/images/about_img_2.jpg" alt="Paddling close up" style="width: 100%; height: auto; border-radius: 6px;"></div>
-  <div style="flex: 1;"><img src="/images/about_img_3.jpg" alt="Group posing on a track" style="width: 100%; height: auto; border-radius: 6px;"></div>
+  <div style="flex: 1;"><img src="/images/about_img_1.jpg" alt="Paddling team on the water" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 6px;"></div>
+  <div style="flex: 1;"><img src="/images/about_img_2.jpg" alt="Paddling close up" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 6px;"></div>
+  <div style="flex: 1;"><img src="/images/about_img_3.jpg" alt="Group posing on a track" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 6px;"></div>
 </div>
 
 <!-- Add more about yourself here when you're ready! For example: your interests, research, courses, career goals, etc. -->
